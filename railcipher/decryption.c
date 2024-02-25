@@ -1,6 +1,3 @@
-/* COP 4338: Programming Assignment 2
-   Name: Elizabeth Fassler */
-
 #include "railcipher.h"
 #include <string.h>
 #include <stdlib.h>
