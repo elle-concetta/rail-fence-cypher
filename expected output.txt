@@ -2,14 +2,14 @@
 
 			****************************
 
--./01railcipher:
+-./railcipher:
 	--Test Case #0:
 STDIN:[
 encrypt hello world!
 quit
 
 ]
-CLAs:[./01railcipher 4.5 -1 2 ]
+CLAs:[./railcipher 4.5 -1 2 ]
 STDOUT:[
 railcipher: Fatal error! First CLA must be a valid integer.
 
@@ -20,7 +20,7 @@ decrypt HWELLLORDO
 quit
 
 ]
-CLAs:[./01railcipher 5 1 3 2 5 0 ]
+CLAs:[./railcipher 5 1 3 2 5 0 ]
 STDOUT:[
 railcipher: Fatal error! The encryption key passed as CLAs is not valid.
 
@@ -32,7 +32,7 @@ decrypt HWELLLORDO
 quit
 
 ]
-CLAs:[./01railcipher 28 21 22 3 4 5 ]
+CLAs:[./railcipher 28 21 22 3 4 5 ]
 STDOUT:[
 railcipher: Fatal error! The encryption key length cannot exceed 26.
 
@@ -44,7 +44,7 @@ decrypt TTNAAPTMTSUOAODWCOIXKNLYPETZ
 quit
 
 ]
-CLAs:[./01railcipher 7 4 3 1 2 5 6 7 ]
+CLAs:[./railcipher 7 4 3 1 2 5 6 7 ]
 STDOUT:[
 TTNAAPTMTSUOAODWCOIXKNLYPETZ
 ATTACKPOSTPONEDUNTILTWOAMXYZ
