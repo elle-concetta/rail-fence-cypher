@@ -1,4 +1,4 @@
-## rail-fence-cypher
+## Rail Fence Cypher Application
 
 Compile Command: gcc -o railcipher railcipher.o encryption.o decryption.o -I. -g -w -lm
 
